@@ -229,7 +229,6 @@ footer {
   
   header ul, header p.view {
     position:static;
-    margin-bottom: 5px;
   }
   
   pre, code {
