@@ -1,0 +1,5 @@
+.keyframes(~'dragonsbreath, 0%{  transform: scale(1) translate(0px, -0px); } 50%{ transform: scale(1.5) translate(0px, -15px); } 100%{ transform: scale(1) translate(0px, -0px); }');
+.animation(dragonsbreath 1450ms linear infinite);
+.transform-origin(0%);
+
+.animation(droprain ~'@{dropSpeed}s' linear ~'@{animationDelay}s' infinite, dropfade ~'@{dropSpeed}s' ease-in ~'@{animationDelay}s' infinite);
