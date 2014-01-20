@@ -933,9 +933,10 @@ ul {
          &.email {
             a,
             &:after {
-               .background-image(linear gradient(to bottom, @black 0%, darken(@navy, 20%) 100%));
-               color:@silver;
+               .background-image(linear gradient(to bottom, @white 0%, darken(@white, 20%) 100%));
+               color:@gray;
                font-family: Georgia, Times New Roman, Times, serif;
+               text-shadow: 1px 1px 2px @black;
             } 
             &:after {
                top: 420px;
@@ -943,6 +944,8 @@ ul {
             }
             &:before {
                content: 'Email me ';
+               color:@gray;
+               text-shadow: 1px 1px 2px @black;
             }
          }   
       }
