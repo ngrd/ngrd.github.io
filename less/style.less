@@ -1068,7 +1068,7 @@ ul {
    .animation(moveclouds, ~'@{cloudSpeed}s', linear infinite);
    .border-radius(~'@{cloudRadius}%');
    .background-image(#fff);
-   .drop-shadow(4px 4px 8px @silver);
+   .drop-shadow(2px 2px 4px @silver);
    .opacity(@cloudOpacity);
    position: absolute;
    z-index: @cloudIndex;
@@ -1181,7 +1181,7 @@ ul {
  content: "";
  width: 48px;
  height: 48px;
- background: #c9dbe9;
+ background: lighten(#c9dbe9, 1%);
  border-radius: 50%;
  position: absolute;
 }
