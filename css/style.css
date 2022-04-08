@@ -56,14 +56,9 @@ body {
 p.handwritten.header {
   font-size: 205%;
   text-shadow: 1px 0px 1px #ffffff;
-   display: none;
 }
 p.handwritten.header.last {
   margin-bottom: 150px;
-}
-
-#headcontainer > header > h1 {
-   display: none;
 }
 
 .span_2_of_6.left {
@@ -3663,3 +3658,4 @@ lesshat-selector {
     opacity: 1;
   }
 }
+
